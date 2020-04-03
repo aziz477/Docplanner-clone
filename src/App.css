@@ -1,0 +1,72 @@
+*{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #ABABAB;
+
+}
+
+.prgf{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 210px;
+    margin-right: 210px;
+    color: #ABABAB;
+    line-height: 180%;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.prgf p{
+    color: #ABABAB;     
+    margin: .8em 0;     
+    line-height: 1.75;     
+    font-weight: 400;
+}
+.twoCards{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    background-color: #00ccb1;
+    border-radius: 10px;
+    padding: 1.375em 2.5em 0;
+    margin: 10px;
+    overflow: hidden;
+    color: white;
+    position: relative;
+    width: 375px;
+    height: 392px;
+    
+}
+.card1 h3,.card2 h3, .card1 p, .card2 p{
+    color: white;
+}
+.card2{
+    background-color: #3d83df;
+    border-radius: 10px;
+    padding: 1.375em 2.5em 0;
+    margin: 10px;
+    overflow: hidden;
+    color: white;
+    position: relative;
+    width: 375px;
+    height: 392px;
+    
+}
+
+.feature{
+    display: flex;
+    justify-content: center;
+    background: #e5faf8;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.City_Card{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: space-between ;
+    margin: auto;
+
+}
